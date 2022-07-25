@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamakura Speech to text</title>
+</head>
+<body>
+    <select name="language selection" id="select_dialect">
+        <option value="English">English</option>
+        <option value="Japanese">Japanese</option>
+    </select>
+<p id="p">...Listening</p>
+<div class="p-3" style="border: 1px solid gray; height: 300px; border-radius: 8px;">
+  <span id="final" class="text-light"></span>
+  <span id="interim" class="text-secondary"></span>
+</div>
+<div class="ButtonBox">
+<button id="erase">Erase</button>
+<button id="start" >Start</button>
+<button id="stop">stop</button>
+</div>
+
+    
+</body>
+<script src="./index.js">
+</script>
+</html>
